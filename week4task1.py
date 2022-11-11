@@ -1,0 +1,8 @@
+userName = input("Please enter your name:")
+print("~" * 42)
+print("~                                        ~")
+print("~" + userName.upper().ljust(39) +    " ~")
+print("~" + userName.capitalize().center(39) +   " ~")
+print("~" + userName.lower().rjust(39) +   " ~")
+print("~                                        ~")
+print("~" * 42) 
